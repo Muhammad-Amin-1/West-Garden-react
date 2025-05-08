@@ -1,0 +1,29 @@
+$color-dark: #1a1a1a;
+$color-light: #faf8f5;
+$color-white: #ffffff;
+$color-green: #a0a747;
+$color-brown: #773844;
+$color-grey: rgba(100, 101, 98, 1);
+
+// Fonts
+$font-primary: "Space Grotesk", sans-serif; // Для заголовков
+$font-secondary: "Inter", sans-serif; // Для основного текста
+$font-size: 20px; // Для основного текста
+
+$container-width: 1180px;
+$container-padding-x: 16px;
+
+$section-padding-y-m: 80px;
+$section-padding-y-s: 40px;
+
+// button
+$button-height: 52px;
+$pudding-inline-btn: 24px;
+
+$border: 1px solid var(--color-light);
+$border-radius-s: 5px;
+$border-radius-l: 12px;
+
+$shadow: rgba(234, 227, 217, 0.32);
+
+$transition-duration: 0.2s;

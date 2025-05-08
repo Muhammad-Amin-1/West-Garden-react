@@ -1,0 +1,51 @@
+
+
+.Hero {
+  padding-top: 40px;
+  max-width: 1800px;
+  margin-inline: auto;
+
+  &__head {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    &-text {
+      margin-top: 8px;
+    }
+  }
+
+  &__title {
+    max-width: 930px;
+  }
+
+  &__body {
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  &__inner {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+
+    &-text {
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 5px;
+      padding: 4px 15px;
+
+    }
+  }
+}
