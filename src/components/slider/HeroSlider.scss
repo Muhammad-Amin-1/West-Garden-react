@@ -1,0 +1,104 @@
+.hero-slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  padding: 40px 0 80px;
+
+  .hero-swiper {
+    overflow: visible;
+
+    .swiper-slide {
+      transition: transform 0.3s ease;
+    }
+
+    .hero-slide__image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    // Навигация
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #fff;
+    }
+
+    // Пагинация
+    .swiper-pagination-bullet {
+      background-color: #fff;
+      opacity: 0.7;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: #000;
+      opacity: 1;
+    }
+  }
+
+  .custom-nav-btn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    width: 68px;
+    height: 68px;
+    background-color: rgba(0, 0, 0, 0.621); // чёрный с прозрачностью
+    backdrop-filter: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition: background-color 0.3s;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  }
+
+  .custom-prev {
+    left: 80px;
+  }
+
+  .custom-next {
+    right: 80px;
+  }
+}
+  
+// /* Высоты слайдера  потом ахи в следующем проекте настроишь высоту  + сделаешь это дело высоту адаптивным*/
+// .hero-slider--small {
+//   height: 580px;
+
+//   .hero-swiper,
+//   .swiper-slide,
+//   .hero-slide__image {
+//     height: 100%;
+//   }
+// }
+
+// .hero-slider--medium {
+//   height: 800px;
+
+//   .hero-swiper,
+//   .swiper-slide,
+//   .hero-slide__image {
+//     height: 100%;
+//   }
+// }
+
+// .hero-slider--large {
+//   height: 700px;
+
+//   .hero-swiper,
+//   .swiper-slide,
+//   .hero-slide__image {
+//     height: 100%;
+//   }
+// }
+

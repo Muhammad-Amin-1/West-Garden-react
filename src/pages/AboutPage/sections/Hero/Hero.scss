@@ -1,9 +1,28 @@
-
-
 .Hero {
   padding-top: 40px;
   max-width: 1800px;
   margin-inline: auto;
+  position: relative;
+
+  &__dop-img {
+    background-color: #fff;
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    color: black;
+  }
+  &__dop-img > p {
+    max-width: 170px;
+    font-size: 16px;
+
+  }
 
   &__head {
     padding-bottom: 30px;
@@ -15,6 +34,7 @@
 
     &-text {
       margin-top: 8px;
+      font-size: 23px;
     }
   }
 
@@ -42,10 +62,14 @@
     padding-bottom: 20px;
 
     &-text {
+      display: flex;
+      gap: 6px;
       background-color: rgba(0, 0, 0, 0.6);
       border-radius: 5px;
       padding: 4px 15px;
-
+    }
+    &-text > span:last-child {
+      color: rgba(160, 167, 71, 1);
     }
   }
 }

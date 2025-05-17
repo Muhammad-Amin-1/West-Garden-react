@@ -1,0 +1,36 @@
+.btn {
+  border: none;
+  border-radius: $border-radius-l;
+  font-weight: 500;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &--s { height: $button-height; }
+  
+
+  &--pad-in { padding-inline: $pudding-inline-btn}
+
+  &--brown {
+    background-color: #773844;
+    color: white;
+  }
+
+  &--white {
+    background-color: #ffffff;
+    color: $color-dark;
+  }
+
+  &--gray {
+    background-color: #a0a747;
+    color: #ffffff;
+  }
+
+  // имей в виду шича
+  @include hover {
+    // opacity: 1;
+    // background-color: #a0a747;
+    // color: var(--color-dark);
+  }
+}

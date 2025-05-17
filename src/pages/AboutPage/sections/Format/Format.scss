@@ -1,0 +1,38 @@
+.format {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  &__card {
+    background-color: $color-white;
+    border-radius: $border-radius-l;
+    display: flex;
+    gap: 50px;
+
+    &-content {
+      max-width: 510px;
+      padding: 60px 0 60px 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &-text {
+      max-width: 408px;
+    }
+
+    &-link {
+      max-width: 211px;
+      color: #0A3CE4;
+      border-bottom: 1px solid #0A3CE4;
+      margin-top: 40px;
+    }
+
+    &-img {
+      padding: 20px;
+    }
+  }
+}
+
+.format__title {
+  margin-bottom: 60px;
+}

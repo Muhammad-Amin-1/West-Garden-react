@@ -1,0 +1,127 @@
+.test {
+  padding-top: 60px;
+  background-color: rgba(31, 32, 87, 1);
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  height: 400px;
+
+  &__main-text {
+    margin: 30px 0 60px;
+  }
+}
+
+.section-test {
+  padding: 60px 20px;
+}
+
+.test-question {
+  text-align: center;
+  padding: 60px 200px 0;
+  background-color: rgba(31, 32, 87, 1);
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  height: 500px;
+
+}
+
+.test-options {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 40px 0;
+}
+
+.test-option {
+  padding: 8px;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.3s;
+  color: black;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .label {
+    padding: 12px 0;
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(160, 167, 71, 1);
+    color: white;
+    border-radius: 5px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.selected {
+    border-color: #28c76f;
+  }
+}
+
+.test-next-btn {
+  margin-bottom: 40px;
+  padding-inline: 40px;
+}
+
+.test-result {
+  padding-top: 60px;
+  background-color: rgba(31, 32, 87, 1);
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  height: 500px;
+
+  &__messengers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+
+    .messenger-btn {
+      padding: 60px 60px;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      cursor: pointer;
+      background: white;
+      transition: 0.3s;
+
+      &.active {
+        background: #28c76f;
+        color: white;
+        border-color: #28c76f;
+      }
+    }
+  }
+
+  &__input {
+    width: 310px ;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+}
+
+.test-form-btn {
+  padding-inline: 50px;
+  margin-left: 20px;
+}

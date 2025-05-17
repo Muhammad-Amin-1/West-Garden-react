@@ -1,4 +1,6 @@
 import HeroIcon from "@/assets/svg/logo-2.svg";
+import decor1 from "@/assets/svg/decor1.svg";
+import HeroIconDop from "@/assets/svg/hero-svg-dop.svg";
 import Title from "@/components/ui/Title/Title";
 import "./Hero.scss";
 import HeroImg from "@/assets/images/Hero-img-desktop.jpg";
@@ -15,6 +17,7 @@ export default function Hero() {
         </div>
         <div className="Hero__head-text">
           <p>Жилой комплекс бизнес-класса в 20 минутах от Кремля</p>
+          <img src={decor1} alt="" />
         </div>
       </div>
       <div
@@ -23,6 +26,10 @@ export default function Hero() {
           backgroundImage: `url(${HeroImg})`,
         }}
       >
+        <div className="Hero__dop-img">
+          <img src={HeroIconDop} alt="" />
+          <p>Победитель федеральной премии Urban Awards 2019</p>
+        </div>
         <div className="Hero__inner">
           <p className="Hero__inner-text">
             <span>1 очередь</span>

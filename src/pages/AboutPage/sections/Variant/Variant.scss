@@ -1,0 +1,28 @@
+.variant {
+  padding: 40px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  
+
+  &__card {
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 0 32px;
+      border-top: 1px solid #EAE3D9;
+    }
+
+    &-img {
+      display: flex;
+      gap: 12px;
+      // flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.variant__title {
+  margin-bottom: 40px;
+}

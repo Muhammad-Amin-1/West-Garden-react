@@ -1,0 +1,50 @@
+.developer-img {
+  position: relative;
+}
+
+.developer-img > img {
+  border-radius: 12px;
+}
+.developer {
+  position: absolute;
+  top: 0;
+  padding: 60px;
+  color: white;
+  display: flex;
+  gap: 390px;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    &-header {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 410px;
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 26px;
+      max-width: 310px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+  }
+}
+
+.developer__big-img {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-top: 130px;
+  padding-bottom: 200px;
+}
