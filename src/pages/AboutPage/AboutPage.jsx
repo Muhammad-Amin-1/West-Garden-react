@@ -8,7 +8,7 @@ import Variant from "./sections/Variant/Variant";
 import Format from "./sections/Format/Format";
 import Otdelka from "./sections/Otdelka/Otdelka";
 import Compleks from "./sections/Compleks/Compleks";
-import Vid from "./sections/Vid/Vid";
+import Vid from "./sections/Vidd/Vid";
 import Test from "./sections/Test/Test";
 import Developer from "./sections/Developer/Developer";
 // другие секции...
